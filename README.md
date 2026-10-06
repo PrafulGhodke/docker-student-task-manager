@@ -12,6 +12,19 @@ containerised using Docker. Created for the Agile lab experiment:
 ## Technologies
 Python | Flask | SQLite | HTML/CSS | Docker | GitHub
 
+## Why Docker?
+
+Docker is used to containerize the Student Task Manager application
+along with its required dependencies. This ensures that the application
+runs consistently across different environments without requiring manual
+installation of all dependencies.
+
+Docker provides:
+- Consistent application environment
+- Easy deployment
+- Dependency isolation
+- Portable application containers
+
 ## Run Without Docker
 ```bash
 python3 -m venv venv
