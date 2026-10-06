@@ -75,3 +75,5 @@ if __name__ == "__main__":
     # host="0.0.0.0" -> accept connections from outside the container
     # port=5000      -> the port Flask listens on
     app.run(host="0.0.0.0", port=5000)
+    #this is the main code for the task manager project
+    
